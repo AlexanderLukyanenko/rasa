@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -36,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Server\data\htdocs\rasa\src\fonts" />
       <recent name="C:\Server\data\htdocs\rasa\src\img\icons" />
       <recent name="C:\Server\data\htdocs\rasa" />
     </key>
@@ -64,7 +65,8 @@
       <updated>1590469667504</updated>
       <workItem from="1590469668763" duration="30229000" />
       <workItem from="1590563298862" duration="15631000" />
-      <workItem from="1590635543535" duration="7404000" />
+      <workItem from="1590635543535" duration="7921000" />
+      <workItem from="1590645715927" duration="3743000" />
     </task>
     <servers />
   </component>
