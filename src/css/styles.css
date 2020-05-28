@@ -31,7 +31,7 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    font-family: Open Sans sans-serif;
+    font-family: Open Sans sans-serif !important;
 }
 
 ul[class],
@@ -104,6 +104,7 @@ select {
 }
 
 .info-card{
+    padding: 20px;
     margin-top: 20px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
@@ -120,7 +121,6 @@ select {
 .info-card__icon{
     width: 53px;
     height: 53px;
-    margin-left: 20px;
 }
 
 .info-card__title{
@@ -196,6 +196,10 @@ select {
     font-weight: normal;
     color: #000000;
     width: 640px;
+}
+
+.list-items_covid .list-item__title{
+    width: 734px;
 }
 
 .list-item_review{
@@ -558,15 +562,20 @@ select {
 }
 
 .div_about-covid-table__number-wrap{
-    display: flex;
-    align-items: center;
+    /*display: flex;*/
+    /*align-items: center;*/
     margin-top: 20px;
 }
 
 .about-covid-table__number{
-    padding-right: 5px;
+    float: left;
+    display: inline-block;
+    padding-right: 12px;
     color: #E04E39;
     font-weight: 600;
+}
+
+.about-covid-table__description{
 }
 
 .financial-imgs__wrap{
@@ -665,6 +674,15 @@ header .container{
 
 .work-time{
     margin-top: 72px;
+    display: flex;
+}
+
+.work-time__icon{
+    padding-top: 9px;
+}
+
+.work-time__description{
+    margin-left: 20px;
 }
 
 .work-time__top{
@@ -676,6 +694,7 @@ header .container{
 }
 
 .work-time__bottom{
+    margin-top: 2px;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -881,4 +900,99 @@ svg {
 
 .modal__img{
     height: 90vh;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1276px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .header-icon__svg{
+        top: -50px;
+    }
+    .hot-number__title{
+        font-size: 23px;
+    }
+    .hot-number__number{
+        font-size: 26px;
+    }
+    .work-time__top{
+        font-size: 20px;
+    }
+    .work-time__bottom{
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 768px)
+{
+    .hot-number__title{
+        font-size: 18px;
+    }
+    .hot-number__number{
+        font-size: 20px;
+    }
+    .hot-number__description{
+        font-size: 16px;
+    }
+    .work-time__top{
+        font-size: 20px;
+    }
+    .work-time__bottom{
+        font-size: 20px;
+    }
+    .flag__title{
+        font-size: 23px;
+    }
+    .flag__subtitle{
+        font-size: 17px;
+    }
+    .button__text{
+        font-size: 12px;
+    }
+    .header__dropdown-menu{
+        left: -100px !important;
+    }
+}
+
+@media (max-width: 576px){
+    .header-icon__svg{
+        top: -10px;
+    }
+    .hot-number__title{
+        font-size: 15px;
+    }
+    .hot-number__number{
+        font-size: 18px;
+    }
+    .hot-number__description{
+        font-size: 14px;
+    }
+    .work-time__top{
+        font-size: 18px;
+    }
+    .work-time__bottom{
+        font-size: 18px;
+    }
+    .flag__title{
+        font-size: 18px;
+    }
+    .flag__subtitle{
+        font-size: 14px;
+    }
+    .button__text{
+        font-size: 10px;
+    }
+    .button{
+        width: 170px;
+    }
 }
